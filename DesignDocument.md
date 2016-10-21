@@ -13,18 +13,21 @@
 
 **Curly braces** should come after a declaration of a function or a loop and not in the same line(example below):
 
-	void Function()
+  void Function()
   {
-    for(int i = 0;i < 1; i++)
-    {
-      ...
-    }
+	  for(int i = 0;i < 1; i++)
+	  {
+		  ...
+	  }
   }
 
 **Camel Casing** should be used when declaring variables and functions(example below):
   
-  int camelCasing = 0;
-  if(checkForWinner != camelCasing)
+  void camelCasingFunction()
   {
-    return true;
+	  int camelCasing = 0;
+	  if(checkForWinner != camelCasing)
+	  {
+		  return true;
+	  }
   }
