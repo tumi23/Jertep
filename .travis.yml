@@ -3,3 +3,4 @@ jdk:
   - oraclejdk8
 before_script:
 - chmod a+x gradlew
+sudo: required
