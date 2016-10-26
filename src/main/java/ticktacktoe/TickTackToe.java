@@ -1,8 +1,12 @@
 package ticktacktoe;
 
+import java.util.Scanner;
+
 public class TickTackToe
 {
 	public static void main(String[] args) {
-		System.out.println("ssssssss");
+		Scanner scan = new Scanner(System.in);
+		int x = scan.nextInt();
+		System.out.println(x);
 	}
 }
