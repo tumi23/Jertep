@@ -1,4 +1,4 @@
-# Develope Maunal
+# Development Manual
 
 
 #### Coding rules:
