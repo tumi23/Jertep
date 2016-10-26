@@ -1,8 +1,8 @@
 package ticktacktoe;
 
-public class TickTackToe
+public class TickTackToeTest
 {
 	public static void main(String[] args) {
-		System.out.println("ssssssss");
+
 	}
 }
