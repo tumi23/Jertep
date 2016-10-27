@@ -21,12 +21,12 @@
 		  }
 	  }
 
-**Camel Casing** should be used when declaring variables and functions(example below):
+**Snake Casing** should be used when declaring variables and functions(example below):
   
-	  void camelCasingFunction()
+	  void snake_casing_function()
 	  {
-		  int camelCasing = 0;
-		  if(checkForWinner != camelCasing)
+		  int snaake_casing = 0;
+		  if(check_for_winner != snake_casing)
 		  {
 			  return true;
 		  }
