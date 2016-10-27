@@ -18,5 +18,12 @@ public class TickTackToeTest {
        assertEquals(tick.board[i / 3][i % 3],(char) (i+49));
      }
    }
-   
+
+   @Test
+   public void test_is_occupied()
+   {
+     TickTackToe tick = new TickTackToe();
+     assertEquals(true, tick.is_occupied(true))
+   }
+
 }
