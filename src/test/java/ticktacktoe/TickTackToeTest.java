@@ -43,4 +43,29 @@ public class TickTackToeTest {
       tick.modify_board(1,'2');
       assertEquals('O', tick.board[0][1]);
     }
+
+    @Test
+    public void test_is_horizontal_winner()
+    {
+      TickTackToe tick = new TickTackToe();
+      tick.board[0][0] = 'X';
+      tick.board[0][1] = 'X';
+      tick.board[0][2] = 'X';
+      assertEquals(true,tick.is_horizontal_winner());
+      tick.board = tick.fill_board();
+      tick.board[1][0] = 'O';
+      tick.board[1][1] = 'O';
+      tick.board[1][2] = 'O';
+      assertEquals(true,tick.is_horizontal_winner());
+      tick.board = tick.fill_board();
+      tick.board[2][0] = 'X';
+      tick.board[2][1] = 'X';
+      tick.board[2][2] = 'X';
+      assertEquals(true,tick.is_horizontal_winner());
+      tick.board = tick.fill_board();
+      tick.board[2][0] = 'X';
+      tick.board[2][1] = 'O';
+      tick.board[2][2] = 'X';
+      assertEquals(false, tick.is_horizontal_winner());
+    }
 }
