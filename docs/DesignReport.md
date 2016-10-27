@@ -33,4 +33,3 @@ hvernig erum við að covera kóðann, hvaða tól notum við
 
 ####The delivery
 hvernig ætlum við að skila verkefninu af okkur, verður það console eða komumst við í vef app
-
