@@ -2,13 +2,14 @@
 
 #### Team Jertep
 The members of team Jertep are:
+
 	- Eíríkur Hákon Friðriksson
 	- Elías Ingi Stefánsson
 	- Jón Sigurðsson
 	- Pétur Stefánsson
 	- Rakel Rós Geisdóttir
 	- Tumi Guðmundsson
--
+
 ####Introduction
 This is a design report for an assignment in Hugbúnaðarfræði. The assignment is to implement a TicTacToe game using Test driven development. We will use Github, Travis ...
 
