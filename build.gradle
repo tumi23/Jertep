@@ -39,3 +39,7 @@ jar {
 	   attributes("Main-Class": "ticktacktoe.TickTackToe")
     }
 }
+
+run {
+  standardInput = System.in
+}
