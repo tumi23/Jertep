@@ -8,9 +8,9 @@ TBD
 
 -
 ### Documentation
-[Administrator manual] ()
+[Administrator manual] (https://github.com/peturs15/Jertep/blob/master/docs/AdministrationManual.md)
 
-[Development manual] ()
+[Development manual] (https://github.com/peturs15/Jertep/blob/master/docs/DesignReport.md)
 
 [Design report] (https://github.com/peturs15/Jertep/blob/master/docs/DesignReport.md)
 
@@ -27,4 +27,4 @@ TBD
 |Rakel Rós Geirsdóttir|[rakelros](https://github.com/peturs15)||
 |Elías Ingi Elíasson|[TBD]()||
 |Pétur Stefánsson|[peturs15](https://github.com/peturs15)||
-|Jón Sigurðsson|[TBD]()||
+|Jón Sigurðsson|[jonsig](https://github.com/jonsig)||
