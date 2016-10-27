@@ -5,6 +5,10 @@ public class TickTackToe
 {
 
 	static char[][] board = new char[3][3];
+	public TickTackToe()
+	{
+		board = fill_board();
+	}
 	static char whos_turn(int turn)
 	{
 		if (turn % 2 == 0)
@@ -33,12 +37,14 @@ public class TickTackToe
 		board[(letter-49) / 3][(letter-49) % 3] = whos_turn(turn);
 	}
 
-	static void fill_board()
+	public char[][] fill_board()
 	{
+		char[][] board = new char[3][3];
 		for (int i = 0; i <= 8; i++)
 		{
 			board[i / 3][i % 3] = (char) (i+49);
 		}
+		return board;
 	}
 
 	static boolean is_horizontal_winner()
@@ -119,7 +125,7 @@ public class TickTackToe
 
     	int turns = -1;
     	char num = ' ';
-    	fill_board();
+			TickTackToe tick = new TickTackToe();
     	boolean is_over = false;
     	output_board();
     	while (!is_over)

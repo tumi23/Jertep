@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ticktacktoe.TickTackToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-10-27T15:25:19" hostname="Tumi-PC" time="0.0">
+<testsuite name="ticktacktoe.TickTackToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-10-27T16:12:29" hostname="Tumi-PC" time="0.016">
   <properties/>
-  <testcase name="testAdd" classname="ticktacktoe.TickTackToeTest" time="0.0"/>
+  <testcase name="test_initial_fill" classname="ticktacktoe.TickTackToeTest" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
