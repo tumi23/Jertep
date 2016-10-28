@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class TickTackToe
 {
-
+	public static int turns = -1;
 	static char[][] board = new char[3][3];
 	public TickTackToe()
 	{
@@ -119,26 +119,26 @@ public class TickTackToe
 		return(turns == 8);
 	}
 
+	static void play_game()
+	{
+		char num = ' ';
+		TickTackToe tick = new TickTackToe();
+		boolean is_over = false;
+		while (!is_over)
+		{
+			turns++;
+			num = input(turns);
+			modify_board(turns, num);
+			output_board();
+			is_over = (is_draw(turns) || has_won());
+		}
+	}
 
     public static void main(String[] args)
     {
-
-    	int turns = -1;
-    	char num = ' ';
 			TickTackToe tick = new TickTackToe();
-    	boolean is_over = false;
     	output_board();
-    	while (!is_over)
-    	{
-    		turns++;
-    		num = input(turns);
-
-    		modify_board(turns, num);
-    		output_board();
-    		is_over = (is_draw(turns) || has_won());
-
-    	}
-    	output_winner(turns, has_won());
-
+			tick.play_game();
+			tick.output_winner(tick.turns, tick.has_won());
     }
 }
