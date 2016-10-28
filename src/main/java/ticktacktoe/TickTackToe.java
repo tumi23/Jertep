@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class TickTackToe
 {
+	
 	public static int turns = -1;
 	static char[][] board = new char[3][3];
 	public TickTackToe()
