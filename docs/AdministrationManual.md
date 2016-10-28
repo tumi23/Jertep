@@ -22,13 +22,13 @@ You can download git [HERE](http://git-scm.com/download/win "Download and instal
 
 ####Gradle
 
-If you use windows you can download Gradle and then you will unzip it and set it up. You can follow these [Instructions]( https://docs.gradle.org/current/userguide/installation.html "instructions for gradle"). 
+If you use windows you download Gradle, unzip it and set it up. You can follow these [Instructions]( https://docs.gradle.org/current/userguide/installation.html "instructions for gradle"). 
 
 - You have to be sure to:
     - Add GRADLE_HOME/bin to your PATH environment variable
     - Add a valid JDK to the environment variable JAVA_HOME.
 
-If you are using Mac or Linux you go to [Homebrew](http://brew.sh) and copy the Url and run in the Terminal. 
+If you are using Mac or Linux go to [Homebrew](http://brew.sh), copy the Url and run in the Terminal. 
 You also need to do the following:
  - brew install gradle
 
@@ -36,7 +36,7 @@ You also need to do the following:
 ####Play Tic Tac Toe on your computer.
 Now you have to go to[GitHub](https://github.com/peturs15/Jertep) and download the project as .zip/.tar.gz
 
-On Unix/Linux open the command prompt and go the location of the folder. Write the command *./bin/deploy* to run the game
+On Unix/Linux open the command prompt and go the location of the folder. Write the command *./bin/compile* to run the game
 
 On Unix/Linux open the terminal and go to the location of the folder. Write the command *sh .\bin\deploy*
 
@@ -52,10 +52,10 @@ You also need to do the following:
  - brew install gradle
 
 -
-####Play Tic Tac Toe on your computer.
+####How to play Tic Tac Toe on your computer.
 Now you have to go to[GitHub](https://github.com/peturs15/Jertep) and download the project as .zip/.tar.gz
 
-On Unix/Linux open the command prompt and go the location of the folder. Write the command *./bin/deploy* to run the game
+On Unix/Linux open the command prompt and go the location of the folder. Write the command *./bin/compile* to run the game
 
 On Unix/Linux open the terminal and go to the location of the folder. Write the command *sh .\bin\deploy*
 
